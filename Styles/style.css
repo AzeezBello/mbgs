@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+	background-image: url(../img/Bg.fw.png);
+
+}
+#logo {
+	float: left;
+	width: 100%;
+	background-color: #FFF;
+}
+#navlayout {
+	width: 100%;
+	margin: 0 0 0em 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	alignment-adjust: central;
+	float: left;
+	background-color: #CCC;	
+}
+#navlayout li {
+float: left; }
+#navlayout li a {
+display: block;
+padding: 8px 15px;
+text-decoration: none;
+font-weight: bold;
+color: #069;
+border-right: 1px solid #ccc; }
+#navlayout li a:hover {
+	color: #069;
+	background-color: #CC99CC;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.sidebar1 {
+	float: left;
+	width: 15%;
+	height: 875px;
+	background-color: #C9C;
+	padding: 10px 0;
+}
+
+.content {
+	padding: 10px 0;
+	width: 70%;
+	float: left;
+	height: 875px;
+	background-color: #FFF;
+}
+.mainContent {
+	height: auto;
+	width: auto;
+	margin-right:1px;
+}
+aside {
+	float: right;
+	width: 15%;
+	background-color: #FFCCFF;
+	padding: 10px 0;
+	height: 875px;
+}
+.contactForm {
+	float: left;
+	height: 600px;
+	width: 750px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.footer {
+	width:100%;
+	margin-left:14px;
+	padding: 10px 0;
+	background-color: #CCCCCC;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}

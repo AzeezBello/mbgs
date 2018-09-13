@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Contact Us | MBGS">
+<meta name="author" content="Demolablaze">
+<title>Contact Us | MBGS</title>
+<link href="Styles/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+<body class="container">
+<header>
+<div class="container">
+<div id="logo">
+    <h1><a href="#"> <img src="Logo.png" width="113" height="103" alt="MBGS logo"></a></h1>
+  </div>
+</header>
+<div id="">
+<navlayout>
+  <ul id="navlayout">
+     <li><a href="index.html">Home</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="News.html">News</a></li>
+    <li><a href="Sponsorship.html">Sponsorship</a></li>
+    <li><a href="ContactUs.html">Cotact Us</a></li>
+    <li><a href="FAQs.html">FAQs</a></li>
+  </ul>
+</navlayout>
+</div>
+<div class="mainContent">
+<div class="sidebar1">
+<h4>Support The Cause</h4>
+  <p>We call on companies, media outfits, organizations, parastatals and well-meaning individuals to support and partner.
+    This is one opportunity to have your name and brand written on the sand of time, by contributing to tourism promotion in Ogun State.
+    For further info, support and partnership, Call/Whatsapp: 08188886018, 08068111447 </p>
+  <h4>&nbsp;</h4>
+    
+</div>
+<div class="content">
+<h2>Contact Us</h2>
+  <div class="contactForm">
+  <table>
+<tr>  <h3>Get in touch!</h3></tr>
+  <form action="#" method="post" onSubmit="MM_validateForm('name','','R','email','','RisEmail','message','','R');return document.MM_returnValue">
+								<tr><td>	<p>
+                                      <label for="message">Name :</label></p></td>
+								<td><p>	  <input name="name" id="name" placeholder="Type your name" type="text">
+	    </p></td>
+									<td><p><br>
+                                      <label for="message">Email :</label></p></td>
+								<td><input name="email" id="email" placeholder="Type your email" type="text">
+		</p></td></tr>
+								<tr><td><p>
+              <label for="message">Message :</label></p></td>
+           <td><span>   <textarea name="message2" id="message" cols="45" rows="5" placeholder="Type your message here"></textarea>
+             </span></td>                  
+		<div class="clear"> 	</div>
+         </table>
+			<p>
+          <input type="submit" id="Send" value="Send" onclick="javascript:sendContactMsg();">
+        </p>
+		<div class="clear"></div>
+	  </form>
+      </p>
+     
+	</div>
+</div>
+<div>
+<aside>
+    <h4>The Concept</h4>
+<p>We are in hopes of finding that young Nigerian female who has spunk, 
+charisma, attitude, and that selling point to be the next face to grace 
+billboards and Pages of magazines as well as exude ‘life’ on televisions
+ across Africa and the world. An ambassador who is fun, convivial, 
+trending; not just to represent our sponsors and partners but most 
+importantly, able to induce brand switch and switch back leading to 
+continued brand loyalty. </p>
+  </aside>
+</div>
+</div>
+<div class="footer">
+  Copyright<i>&copy; 2016</i> Acedigital.com
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+<script type="text/javascript" src="ajax.js"></script>
+</body>
+</html>

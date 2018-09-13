@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../Styles/temp.css" rel="stylesheet" type="text/css">
+<link href="../Styles/style.css" rel="stylesheet" type="text/css">
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body class="container">
+<header>
+<div class="container">
+<div id="logo">
+    <h1><a href="#"><img src="../img/Logo.png" width="250" height="250" alt="MBGS logo"> </a></h1>
+   </div>
+</header>
+<div id="navlayout">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../About.html">About Us</a></li>
+    <li><a href="../Gallery.html">Gallery</a></li>
+    <li><a href="../News.html">News</a></li>
+    <li><a href="../Sponsorship.html">Sponsorship</a></li>
+    <li><a href="../ContactUs.html">Contact Us</a></li>
+    <li><a href="../FAQs.html">FAQs</a></li>
+  </ul>
+</div>
+<div>
+<div class="sidebar1">
+<h4>Support The Cause</h4>
+  <p>We call on companies, media outfits, organizations, parastatals and well-meaning individuals to support and partner.
+    This is one opportunity to have your name and brand written on the sand of time, by contributing to tourism promotion in Ogun State.
+    For further info, support and partnership, Call/Whatsapp: 08188886018, 08068111447 </p>
+  <h4>&nbsp;</h4>
+    <h4>The Concept</h4>
+<p>We are in hopes of finding that young Nigerian female who has spunk, 
+charisma, attitude, and that selling point to be the next face to grace 
+billboards and Pages of magazines as well as exude ‘life’ on televisions
+ across Africa and the world. An ambassador who is fun, convivial, 
+trending; not just to represent our sponsors and partners but most 
+importantly, able to induce brand switch and switch back leading to 
+continued brand loyalty. </p>
+</div>
+<div class="content">
+  <h4>About</h4>
+  <p>Miss Tourism Ogun State (MTOGS) is a beauty pageant with a unique vision. Unlike most beauty pageants, we have taken several strides to distinguish it as a  pageant with a purpose geared towards empowering and mentoring on to stardom a new generation of women in Ogun State and Nigeria at large.
+    
+    The pageant is a creative and purposeful beauty and talent competition searching to discover and nurture future national personalities, brand ambassadors, business women, movie stars and super models </p>
+  <p>&nbsp;</p>
+<h4>Our Mission</h4>
+<p>The strategy for this maiden edition of Miss Tourism Ogun State is to position a pageant that will empower young women, who will in turn become tourist ambassadors to champion the campaign to revive seemingly moribund tourist sites in the state such as Birikisu Sugbo Shrine, Oke Eri, Yemoji Natural Swimming Pool at Ijebu- Ode, etc. and help to further reposition and promote already active sites like the famous Olumo Rock. </p>
+<p>&nbsp;</p>
+<h4>Ogun State the Gateway State</h4>
+<p>Ogun State was carved out of the old Western State by the military administration of General Murtala Muhammed and General Olusegun Obasanjo in 1976. Ogun State is otherwise known as the Gateway State. This is in recognition of its pioneering role in education, medicine, law and divinity, on the one hand, and its strategic position as the link by road, rail, air and sea to the rest of the country. Apart from Abeokuta, the capital, which is an important market centre-and a terminus of the roads and railways coming from Lagos and other parts of the country, there are also major towns and communities like Sagamu, Ijebu-Ode, Ilaro and others that can serve as good markets for products of the mining industry in Ogun State. </p>
+</div>
+
+ <div class="footer">
+Copyright<i>&copy; 2016</i> Acedigital.com
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

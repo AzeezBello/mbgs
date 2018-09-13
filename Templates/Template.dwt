@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>MBGS</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<link href="system_1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container">
+<header role="banner" class="header_4 scrolled">
+<div class="panel head">
+    <div class="container">
+      <div class="clearfix">
+        		    <div class="relative">
+          <div class="poping_links"> <span>Welcome visitor you can</span>
+                        <a href="#" id="openLogin" class="link">Login</a>&nbsp;or <a href="http://misstourismogun.com/create-an-account/" class="link">Create an Account</a>
+         </div>
+         <div id="login_pop"> <form name="form-login" id="form-login" action="http://misstourismogun.com/wp-login.php" method="post" class="post_form m_b_no_space v_form shopping_cart"><span class="title">Log In</span><div class="log">
+				  <span><label for="user_login">Username</label></span>
+				  <input name="log" id="user_login" class="input inputbox" size="20" type="text">
+			  </div><div class="log">
+				  <span><label for="user_pass">Password</label></span>
+				  <input name="pwd" id="user_pass" class="input inputbox" value="" size="20" type="password">
+			  </div> <div class="control-group form-elements"><input name="rememberme" id="rememberme" value="forever" type="checkbox"> <label for="rememberme">Remember Me</label></div><div class="log button-log clearfix">
+				  <input name="wp-submit" id="wp-submit" class="button-primary btn-small btn-blue" value="Log In" type="submit">
+				  <input name="redirect_to" value="/" type="hidden">
+				  <ul class="Forgot txt-1">
+					  <li class="firstItem">
+						<a href="http://misstourismogun.com/wp-login.php?action=lostpassword&amp;redirect_to=/">Forgot Your Password?</a>
+					  </li>
+				  </ul>
+			  </div><div class="create_customer">
+				<span>New Customer?</span>
+				<a class="btn-small btn-blue button" href="http://misstourismogun.com/create-an-account/">Create an Account</a>
+		  </div></form><a href="javascript:;" id="closeLogin"><i class="fa fa-times"></i></a> </div>
+		</div>
+	        		<nav id="menu-nav">
+			<div style="display: none;" id="menu-button"> <i class="fa fa-align-justify"></i> </div>
+		</nav>
+		<div class="menu-top-menu-container"><ul id="menu-top-menu" class="list-panel top_menu"><li id="menu-item-8073" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8073"><a href="http://misstourismogun.com/category/registration/">Registration</a></li>
+</ul></div>                				        		  	      </div>
+    </div>
+  </div>
+    <div class="header_top">
+    <div class="container">
+      <div class="navbar navbar_ clearfix">
+        <div class="navbar-inner">
+          <h1 class="h1 brand fleft"> <a href="#"> <img src="../12936486_10205981804044544_8920295894803340992_n.jpg" alt="reviver" width="126" height="150"> </a></h1>
+	                    	  			<div class="phone-div">Call Us for more info/Sponsorship<span>2348188886018, 2348068111447</span></div>
+          </div>
+      </div>
+    </div>
+                <div class="main-menu"><div>
+                <div class="container">
+                  <div class="nav-collapse nav-collapse_ collapse">
+                    <button id="menu_button"><i class="fa fa-align-justify"></i></button>
+                    <div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="nav sf-menu clearfix header_1 main_navigation"><li id="menu-item-7701" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-258 current_page_item menu-item-7701"><a href="http://misstourismogun.com/">Home<span></span></a></li>
+<li id="menu-item-7692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7692"><a href="http://misstourismogun.com/about-us/">About us<span></span></a></li>
+<li id="menu-item-8497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8497"><a href="http://misstourismogun.com/the-finalist/">The Finalist<span></span></a></li>
+<li id="menu-item-7874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7874"><a href="http://misstourismogun.com/newstips/">News<span></span></a></li>
+<li id="menu-item-7735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7735"><a href="http://misstourismogun.com/2-columns/">Gallery<span></span></a></li>
+<li id="menu-item-7993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7993"><a href="http://misstourismogun.com/sponsorship/">Sponsorship<span></span></a></li>
+<li id="menu-item-7858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7858"><a href="http://misstourismogun.com/contact-page-v2/">Contact Us<span></span></a></li>
+</ul></div>                  </div>
+                </div>
+              </div></div>  </div>
+</header>
+
+
+</body>
+</html>
