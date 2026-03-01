@@ -1,89 +1,246 @@
 @charset "utf-8";
-body {
-	background-image: url(../img/Bg.fw.png);
 
+* {
+  box-sizing: border-box;
 }
-#logo {
-	float: left;
-	width: 100%;
-	background-color: #FFF;
+
+html {
+  font-size: 16px;
 }
-#navlayout {
-	width: 100%;
-	margin: 0 0 0em 0;
-	padding: 0;
-	list-style: none;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
-	alignment-adjust: central;
-	float: left;
-	background-color: #CCC;	
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f1f1f;
+  background: #f5f5f5 url(../img/Bg.fw.png) center top / cover no-repeat fixed;
 }
-#navlayout li {
-float: left; }
-#navlayout li a {
-display: block;
-padding: 8px 15px;
-text-decoration: none;
-font-weight: bold;
-color: #069;
-border-right: 1px solid #ccc; }
-#navlayout li a:hover {
-	color: #069;
-	background-color: #CC99CC;
+
+a {
+  color: #005c88;
+}
+
+a:hover,
+a:focus {
+  color: #064f73;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {
-	width: 1200px;
-	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+  width: min(100% - 2rem, 1200px);
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+#logo h1 {
+  margin: 0;
+}
+
+#logo img {
+  width: clamp(140px, 22vw, 250px);
+}
+
+#navlayout {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #c7c7c7;
+  border-top: 1px solid #c7c7c7;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d6d6d6;
+}
+
+#navlayout li {
+  flex: 1 1 140px;
+}
+
+#navlayout li a {
+  display: block;
+  padding: 0.75rem 0.85rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  border-right: 1px solid #c7c7c7;
+}
+
+#navlayout li:last-child a {
+  border-right: 0;
+}
+
+#navlayout li a:hover,
+#navlayout li a:focus {
+  color: #ffffff;
+  background-color: #7d4f8d;
+}
+
+.mainContent {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+
+.sidebar1,
+.content,
+aside {
+  padding: 1rem;
+  border-radius: 4px;
 }
 
 .sidebar1 {
-	float: left;
-	width: 15%;
-	height: 875px;
-	background-color: #C9C;
-	padding: 10px 0;
+  flex: 1 1 240px;
+  background-color: #e7b8e7;
 }
 
 .content {
-	padding: 10px 0;
-	width: 70%;
-	float: left;
-	height: 875px;
-	background-color: #FFF;
+  flex: 2 1 480px;
+  background-color: #ffffff;
 }
-.mainContent {
-	height: auto;
-	width: auto;
-	margin-right:1px;
-}
+
 aside {
-	float: right;
-	width: 15%;
-	background-color: #FFCCFF;
-	padding: 10px 0;
-	height: 875px;
+  flex: 1 1 240px;
+  background-color: #ffd8ee;
 }
+
 .contactForm {
-	float: left;
-	height: 600px;
-	width: 750px;
-	margin-left: 50px;
-	margin-top: 50px;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+.form-grid p {
+  margin: 0;
+}
+
+.form-grid label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.form-grid input,
+.form-grid textarea {
+  width: 100%;
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+  padding: 0.65rem 0.75rem;
+  font: inherit;
+}
+
+.form-grid textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+#Send {
+  border: 0;
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  background: #005c88;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#Send:hover,
+#Send:focus {
+  background: #064f73;
+}
+
+#contact_resp {
+  margin: 0.5rem 0 1rem;
+  font-weight: 600;
 }
 
 .footer {
-	width:100%;
-	margin-left:14px;
-	padding: 10px 0;
-	background-color: #CCCCCC;
-	position: relative;/* this gives IE6 hasLayout to properly clear */
-	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
-	text-align: center;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 0.85rem;
+  background-color: #d6d6d6;
+  text-align: center;
+  clear: both;
 }
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0px;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
-	padding-right: 15px;
-	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 0.9rem;
+}
+
+@media (max-width: 960px) {
+  .mainContent {
+    flex-direction: column;
+  }
+
+  .sidebar1,
+  .content,
+  aside {
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100% - 1rem, 1200px);
+  }
+
+  #navlayout li {
+    flex: 1 1 100%;
+  }
+
+  #navlayout li a {
+    border-right: 0;
+    border-bottom: 1px solid #c7c7c7;
+  }
+
+  #navlayout li:last-child a {
+    border-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .form-grid .full {
+    grid-column: 1 / -1;
+  }
 }
